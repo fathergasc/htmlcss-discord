@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header-top {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord-logo {
+    text-align: left;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.menu {
+    text-align: center;
+    line-height: 40px;
+}
+
+.login {
+    text-align: right;
+    line-height: 40px;
+    padding-right: 5px;
+}
+
+.discord-logo, .menu, .login {
+    height: 40px;
+}
+
+.login, .discord-logo {
+    width: 25%;
+}
+
+.menu {
+   width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.header-bottom {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    height: 400px;  
+    width: 50%;  
+}
+
+.section-small {
+    height: 600px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-small.gray, .section-big.gray {
+    background-color: #d3d3d3;
+}
+
+.img-column {
+    height: 500px;
+    width: 60%;
+}
+
+.text-column {
+    height: 500px;
+    width: 40%;
+}
+
+.section-big {
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-big-container {
+    height: 1000px;
+    width: 100%;
+}
+
+footer {
+    background-color: #23272a;
+    height: 800px;
+}
+
+.footer-top {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socials {
+    height:600px;
+    width: calc(100% / 6 * 2);
+}
+
+.contacts {
+    height: 600px;
+    width: calc(100% / 6);
+}
+
+.footer-top-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.footer-bottom {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 3px solid gray;
+}
+
+.footer-bottom-container {
+    height: 90px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord-logo-footer {
+    height: 40px;
+    width: 8%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sign-in {
+    height: 40px;
+    width: 10%;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*inizio debug rules*/
+
+.header-top.debug {
+    background-color: #add8e6;
+}
+
+.header-bottom.debug {
+    background-color: #00008b;
+}
+
+.discord-logo.debug, .menu.debug, .login.debug {
+    background-color: #daa520;
+    border: 2px dotted black;
+}
+
+.header-content.debug {
+    background-color: #ee82ee;    
+}
+
+.img-column.debug {
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.text-column.debug {
+    background-color: #ffc0cb;
+    border: 2px dotted black;
+}
+
+.section-big-container.debug {
+    background-color: #228b22;
+    border: 2px dotted black;
+}
+
+.socials.debug {
+    background-color: #f08080;
+    border: 2px dotted black;
+}
+
+.contacts.debug {
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.footer-bottom-container.debug {
+    background-color: #7fffd4;
+}
+
+.discord-logo-footer.debug, .sign-in.debug {
+  background-color: #ffb6c1;
+  border: 2px dotted black;
+}
+
+/*fine debug rules*/
