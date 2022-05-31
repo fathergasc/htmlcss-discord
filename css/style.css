@@ -6,6 +6,7 @@
 
 body {
     margin: 0 auto;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .header-top {
@@ -13,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #255ee9;
 }
 
 .container {
@@ -45,6 +47,62 @@ body {
 
 .login, .discord-logo {
     width: 25%;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.fa-solid.fa-down-long{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.button.white {
+    color: black;
+    border-style: none;
+}
+
+.button.black {
+    background-color: #23272a;
+    color: white;
+    border-style: none;
+}
+
+button.white:hover {
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+.button.black:hover {
+    cursor: pointer;
+    background-color: #424a50;
+}
+
+.button.big {
+    height: 45px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h1, p {
+    color: white;
 }
 
 .menu {
@@ -61,17 +119,28 @@ li {
     list-style: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .header-bottom {
     height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .header-content {
+    text-align: center;
     height: 400px;  
-    width: 50%;  
+    width: 45%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .section-small {
@@ -171,22 +240,27 @@ footer {
 
 /*inizio debug rules*/
 
+/*
 .header-top.debug {
     background-color: #add8e6;
-}
-
-.header-bottom.debug {
-    background-color: #00008b;
-}
+} 
 
 .discord-logo.debug, .menu.debug, .login.debug {
     background-color: #daa520;
     border: 2px dotted black;
 }
 
+.header-bottom.debug {
+    background-color: #00008b;
+}
+
 .header-content.debug {
     background-color: #ee82ee;    
 }
+*/
+
+
+
 
 .img-column.debug {
     background-color: #1e90ff;
