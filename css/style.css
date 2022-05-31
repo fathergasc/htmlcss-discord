@@ -354,29 +354,20 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-top: 3px solid gray;
+    
 }
 
 .footer-bottom-container {
+    border-top: 3px solid #7289da;
     height: 90px;
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.discord-logo-footer {
-    height: 40px;
-    width: 8%;
-    line-height: 40px;
-    text-align: center;
-}
-
-.sign-in {
-    height: 40px;
-    width: 10%;
-    line-height: 40px;
-    text-align: center;
+.sign-in button, .discord-logo-footer img {
+    margin-top: 10px;
 }
 
 /*inizio debug rules*/
@@ -423,11 +414,6 @@ h3 {
     background-color: #20b2aa;
     border: 2px dotted white;
 }
-*/
-
-
-
-
 
 .footer-bottom-container.debug {
     background-color: #7fffd4;
@@ -437,5 +423,6 @@ h3 {
   background-color: #ffb6c1;
   border: 2px dotted black;
 }
+*/
 
 /*fine debug rules*/
