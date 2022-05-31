@@ -57,8 +57,14 @@ body {
     padding: 0 15px;
 }
 
-.fa-solid.fa-down-long{
+.fa-solid.fa-down-long.black {
     color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.fa-solid.fa-down-long.white { 
+    color: white;
     font-size: 20px;
     padding-right: 5px;
 }
@@ -72,6 +78,17 @@ body {
     background-color: #23272a;
     color: white;
     border-style: none;
+}
+
+button.blue {
+    background-color: #7289da;
+    color: white;
+    border-style: none;
+}
+
+button.blue:hover {
+    background-color: #8590ff;
+    cursor: pointer;
 }
 
 button.white:hover {
@@ -200,10 +217,19 @@ h1 {
     padding: 60px 40px;
 }
 
+.section-big-container h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
 p {
     color: black;
     font-size: 18px;
     padding: 20px 40px;
+}
+
+.section-big-container p {
+    text-align: center;
 }
 
 .section-big {
@@ -216,6 +242,26 @@ p {
 .section-big-container {
     height: 1200px;
     width: 100%;
+}
+
+.section-big-container img {
+    width: 100%;
+}
+
+.container-stars {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-stars img {
+    width: 40%;
+}
+
+h2 {
+    margin-bottom: 50px;
 }
 
 footer {
@@ -307,17 +353,12 @@ footer {
     background-color: #ffc0cb;
     border: 2px dotted black;
 }
-*/
-
-
-
-
-
 
 .section-big-container.debug {
     background-color: #228b22;
     border: 2px dotted black;
 }
+*/
 
 .socials.debug {
     background-color: #f08080;
