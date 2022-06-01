@@ -35,6 +35,10 @@ body {
     line-height: 40px;
 }
 
+.menu li a {
+    padding: 10px 10px;
+}
+
 .login {
     text-align: right;
     line-height: 40px;
@@ -149,6 +153,7 @@ a {
     align-items: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 
 .header-content {
