@@ -58,7 +58,7 @@ body {
     text-align: center;
     border-radius: 20px;
     height: 40px;
-    padding: 0 15px;
+    padding: 5px 15px;
 }
 
 .fa-solid.fa-down-long.black {
@@ -74,6 +74,7 @@ body {
 }
 
 .button.white {
+    background-color: white;
     color: black;
     border-style: none;
 }
@@ -84,20 +85,20 @@ body {
     border-style: none;
 }
 
-button.blue {
+.button.blue {
     background-color: #7289da;
     color: white;
     border-style: none;
 }
 
-button.blue:hover {
-    background-color: #8590ff;
+.button.blue:hover {
     cursor: pointer;
+    background-color: #8590ff;
 }
 
-button.white:hover {
-    background-color: #d3d3d3;
+.button.white:hover {
     cursor: pointer;
+    background-color: #d3d3d3;
 }
 
 .button.black:hover {
@@ -109,6 +110,7 @@ button.white:hover {
     height: 45px;
     font-size: 18px;
     margin-right: 10px;
+    padding: 10px 15px;
 }
 
 .header-title {
@@ -371,8 +373,8 @@ h3 {
     align-items: flex-start;
 }
 
-.sign-in button, .discord-logo-footer img {
-    margin-top: 10px;
+.sign-in, .discord-logo-footer img {
+    margin-top: 12px;
 }
 
 /*inizio debug rules*/
